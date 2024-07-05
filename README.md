@@ -1,5 +1,5 @@
 # 👋 Hello! Welcome to my Github profile.
-## My name is Willian Penteado and my nickname is "Willian-P"!
+## My name is Willian Penteado and my nickname is "Will"!
 
 <!--
 **Willian-P/Willian-P** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
