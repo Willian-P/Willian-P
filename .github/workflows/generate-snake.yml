@@ -19,9 +19,12 @@ jobs:
           github_user_name: Willian-P
           outputs: "github-contribution-grid-snake.svg"
         
-      - name: Push Snake to the output branch
-        uses: ad-m/github-push-action@master
-        with:
-          branch: output
-          file: github-contribution-grid-snake.svg
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push Snake
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg
+          git commit -m "Generate snake animation"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
