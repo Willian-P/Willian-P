@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 - 🔭 I’m currently working as a Data Scientist.
 - 📚 I’m pursuing a postgraduate degree in Data Science with a focus on financial markets and artificial intelligence.
 - 🌱 I’m currently learning data science, ETL, and artificial intelligence.
-- 😄 Pronouns: he/him
+- 😄 Pronouns: he/him.
 
 ## Technologies and Tools:
 
